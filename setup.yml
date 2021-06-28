@@ -4,6 +4,5 @@
   hosts: all
   
   tasks:
-    -name: ping
+  - name: ping
     win_ping:
-
