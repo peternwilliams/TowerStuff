@@ -1,7 +1,9 @@
 ---
+# Nothing
 - name: test
   hosts: all
   
   tasks:
     -name: ping
     win_ping:
+
