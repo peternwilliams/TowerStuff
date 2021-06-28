@@ -8,4 +8,4 @@
           - SecurityUpdates
           - CriticalUpdates
           - UpdateRollups
-        state:searched
+        state: searched
