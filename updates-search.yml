@@ -1,4 +1,7 @@
-- name: Chewck missing Windows Updates
+- name: Windows Updates
   hosts: all
-  win_updates:
-      state:searched
+
+  - tasks:
+    - name: Check for updates
+      win_updates:
+        state:searched
